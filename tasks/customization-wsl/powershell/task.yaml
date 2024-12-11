@@ -1,6 +1,6 @@
 # This is a simple powershell command execution task for Dev Box.
 $schema: "1.0"
-name: powershell
+name: mypowershell
 description: Execute a powershell command.
 author: Microsoft Corporation
 command: ".\\Run-Command.ps1 -Command {{command}} -WorkingDirectory {{workingDirectory}} -RunAsUser {{runAsUser}}"
