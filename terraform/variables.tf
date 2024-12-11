@@ -11,7 +11,7 @@ variable "environment" {
 variable "owner" {
   description = "The name of the project's owner"
   type        = string
-  default     = "ms"
+  default     = "hxue"
 }
 
 variable "application" {
@@ -22,7 +22,7 @@ variable "application" {
 
 variable "location" {
   type        = string
-  default     = "westeurope"
+  default     = "japaneast"
   description = "The Azure region where the resources should be created"
 }
 

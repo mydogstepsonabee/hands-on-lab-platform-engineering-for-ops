@@ -63,8 +63,8 @@ resource "azapi_resource" "template-spec-version-azurepolicy-lab" {
             "metadata" : {
               "description" : "The location for the resources"
             },
-            "defaultValue" : "westeurope",
-            "allowedValues" : ["westeurope", "northeurope"],
+            "defaultValue" : "japaneast",
+            "allowedValues" : ["japaneast", "japanwest"],
           }
         },
         "resources" : [
